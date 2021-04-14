@@ -28,6 +28,7 @@ messageForm.addEventListener('submit', e => {
 
 function appendMessage(message) {
   const messageElement = document.createElement('div')
+  messageElement.classList.add('text-white')
   messageElement.innerText = message
   messageContainer.append(messageElement)
 }
